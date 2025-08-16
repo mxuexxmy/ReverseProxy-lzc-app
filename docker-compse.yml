@@ -1,0 +1,5 @@
+services:
+  reverseproxy:
+    image: wangdxing/golang-reverseproxy
+    ports:
+      - "8888:8888"
